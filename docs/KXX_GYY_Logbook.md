@@ -34,8 +34,10 @@
 | Tanggal | Nama Anggota | Deskripsi Pekerjaan | Durasi (Jam) | Status | Kendala / *Blocker* | 
 | :--- | :--- | :--- | :--- | :--- | :--- | 
 | *30-08-2026* | *Rafi Pradipta Andira Sulistyo* | *Mengerjakan draft awal bab 2* | *1-2.5* | *Done* | - | 
+| *30-08-2026* | *Gede Pranajayanta Suputra* | *Mengerjakan draft bab 3.2* | *1* | *Done* | *Aktor belum pasti* | 
 | *31-08-2026* | *Rafi Pradipta Andira Sulistyo* | *Melakukan penyesuaian terhadap draft bab 2 serta melengkapi draft bab 2.* | *1.5* | *Done* | *-* | 
 | *01-09-2026* | *Rafi Pradipta Andira Sulistyo* | *Menambahkan hal-hal yang dibahas pada asistensi ke bab 2* | *1* | *Done* | *-* | 
+| *01-09-2026* | *Gede Pranajayanta Suputra* | *Melakukan revisi aktor beserta aktivitas sesuai dengan masukan pada saat asistensi* | *1* | *Done* | *-* | 
 | | | | | | | |
 
 **Catatan/Evaluasi Milestone 1:**
