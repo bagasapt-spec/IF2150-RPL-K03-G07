@@ -128,27 +128,25 @@ Beberapa batasan ruang lingkup solusi juga ditetapkan agar pengembangan berjalan
 | :--- | :--- | :--- | :--- |
 | A01 | Menemukan Kendala/Masalah | Warga menemukan kendala atau permasalahan di lingkungan terkait kerusakan infrastruktur publik | US-01 |
 | A02 | Membuka Aplikasi | Warga membuka aplikasi Lapor Kota untuk melakukan pelaporan permasalahan | US-01 |
-| A03 | Memilih Kategori Laporan | Warga membuka aplikasi Lapor Kota untuk melakukan pelaporan permasalahan | US-01 |
-| A04 | Mengirim Laporan | Warga mengirimkan laporan permasalahan melalui aplikasi | US-01 |
-| A05 | Status Diterima | Sistem memberikan status bahwa laporan telah diterima dan masuk ke proses pemeriksaan administrasi | US-02 |
-| A06 | Validasi Laporan | Tim Administrasi memeriksa laporan untuk menentukan apakah laporan valid dan dapat diproses | US-02 |
-| A07 | Status Ditolak | Jika laporan dinyatakan tidak valid, Tim Administrasi mengubah status laporan menjadi ditolak | US-02 |
-| A08 | Status Dikerjakan | Jika laporan dinyatakan valid, sistem mengubah status laporan menjadi dikerjakan dan keluhan akan diproses | US-02 |
-| A09 | Menentukan Skala Prioritas Laporan | Tim Administrasi menentukan tingkat prioritas laporan berdasarkan jumlah laporan atau urgensi permasalahan | US-02 |
-| A10 | Menerima Laporan | Eksekutor Lapangan menerima laporan dan segera menindaklanjuti | US-03 |
-| A11 | Eksekusi Lapangan | Eksekutor Lapangan menindaklanjuti secara langsung terhadap permasalahan yang dilaporkan | US-03 |
-| A12 | Mengirim Laporan Hasil Eksekusi | Eksekutor Lapangan mengirimkan informasi mengenai hasil penanganan permasalahan melalui aplikasi | US-03 |
-| A13 | Memeriksa Penyelesaian Kendala | Tim Administrasi memeriksa apakah kendala yang dilaporkan telah berhasil diselesaikan berdasarkan hasil eksekusi lapangan | US-02 |
-| A14 | Melakukan Eksekusi Ulang | Jika kendala belum terselesaikan, laporan dikembalikan kepada Eksekutor Lapangan untuk dilakukan penanganan kembali | US-03 |
-| A15 | Status Berhasil | Jika kendala telah terselesaikan, Tim Administrasi mengubah status laporan menjadi berhasil | US-02 |
-| A16 | Melihat Laporan | Warga dapat melihat informasi dan status akhir dari laporan yang telah dibuat, termasuk hasil penanganannya | US-01 |
-| ... | ... | ... | ... |
+| A03 | Mengirim Laporan | Warga mengirimkan laporan permasalahan melalui aplikasi | US-01 |
+| A04 | Status Diterima | Sistem memberikan status bahwa laporan telah diterima dan masuk ke proses pemeriksaan administrasi | US-02 |
+| A05 | Validasi Laporan | Tim Administrasi memeriksa laporan untuk menentukan apakah laporan valid dan dapat diproses | US-02 |
+| A06 | Status Ditolak | Jika laporan dinyatakan tidak valid, Tim Administrasi mengubah status laporan menjadi ditolak | US-02 |
+| A07 | Status Dikerjakan | Jika laporan dinyatakan valid, sistem mengubah status laporan menjadi dikerjakan dan keluhan akan diproses | US-02 |
+| A08 | Menentukan Skala Prioritas Laporan | Tim Administrasi menentukan tingkat prioritas laporan berdasarkan jumlah laporan atau urgensi permasalahan | US-02 |
+| A09 | Menerima Laporan | Eksekutor Lapangan menerima laporan dan segera menindaklanjuti | US-03 |
+| A10 | Eksekusi Lapangan | Eksekutor Lapangan menindaklanjuti secara langsung terhadap permasalahan yang dilaporkan | US-03 |
+| A11 | Mengirim Laporan Hasil Eksekusi | Eksekutor Lapangan mengirimkan informasi mengenai hasil penanganan permasalahan melalui aplikasi | US-03 |
+| A12 | Memeriksa Penyelesaian Kendala | Tim Administrasi memeriksa apakah kendala yang dilaporkan telah berhasil diselesaikan berdasarkan hasil eksekusi lapangan | US-02 |
+| A13 | Melakukan Eksekusi Ulang | Jika kendala belum terselesaikan, laporan dikembalikan kepada Eksekutor Lapangan untuk dilakukan penanganan kembali | US-03 |
+| A14 | Status Berhasil | Jika kendala telah terselesaikan, Tim Administrasi mengubah status laporan menjadi berhasil | US-02 |
+| A15 | Melihat Laporan | Warga dapat melihat informasi dan status akhir dari laporan yang telah dibuat, termasuk hasil penanganannya | US-01 |
 
 ## 3.4 Model Proses Bisnis
 <br>
 
 <p align="center">
-<img alt="Contoh Swimlane Diagram Lapor" src="./assets/diagram/ModelProsesBisnisLaporKota-1.avif" width="70%">
+<img alt="Contoh Swimlane Diagram Lapor" src="./assets/diagram/ModelProsesBisnisLaporKota.avif" width="70%">
 </p>
 <p align="center">
 <i>Gambar 1. Swimlane Diagram Alur Pelaporan dan Penanganan Kerusakan Infrastruktur Publik pada LaporKota</i>
