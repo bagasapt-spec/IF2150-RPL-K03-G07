@@ -93,12 +93,37 @@ Lengkapi juga dengan penjelasannya dan apakah keperluan tersebut perlu didukung 
 
 | ID Kebutuhan | ID Aktivitas | Jenis Kebutuhan | Deskripsi Kebutuhan | P/L |
 | :--- | :--- | :--- | :--- | :--- |
-| *R01* | *A01* | *User* | *Pengguna dapat memilih metode pembayaran dan melakukan pembayaran secara digital.* | *Ya* |
-| *R02* | *A01* | *Business* | *Transaksi digital sesuai dengan ketentuan UU ITE yang berlaku.* | *Tidak* |
-| *R03* | *A01* | *System* | *Sistem harus mengintegrasikan API Payment Gateway dengan prinsip ACID (Atomicity, Consistency, Isolation, Durability), jika terjadi kegagalan jaringan saat saldo terpotong, sistem harus secara otomatis membatalkan transaksi atau meneruskan dana (reliable).* | *Ya* |
-| *R04* | *A01* | *System* | *Kata sandi (password) atau PIN pengguna saat otorisasi pembayaran harus di-hash menggunakan algoritma SHA-256 dan tidak disimpan dalam bentuk plain-text.* | *Ya* |
-| *R05* | *A02* | *Business* | *Toko harus memiliki rekening bank aktif dan valid untuk menerima pencairan dana dari sistem.* | *Tidak* |
-| ... | ... | ... | ... | ... |
+| *R01* | *A02* | *User* | *Warga dapat mengakses aplikasi LaporKota melalui browser tanpa instalasi.* | *Ya* |
+| *R02* | *A03* | *User* | *Warga dapat mengunggah foto kerusakan sebagai bagian dari laporan.* | *Ya* |
+| *R03* | *A03* | *User* | *Warga dapat mengirimkan laporan dengan lokasi yang ditandai otomatis via GPS perangkat.* | *Ya* |
+| *R04* | *A03* | *Business* | *Satu laporan hanya mencakup satu titik kerusakan spesifik.* | *Tidak* |
+| *R05* | *A03* | *System* | *Sistem menyimpan koordinat GPS yang ditangkap otomatis dari perangkat pengguna.* | *Ya* |
+| *R06* | *A03* | *System (Security)* | *Sistem membatasi unggahan foto pada format JPG/PNG dengan ukuran maksimum 10MB.* | *Ya* |
+| *R07* | *A03* | *System* | *Sistem melakukan deduplikasi otomatis terhadap laporan baru berdasarkan radius lokasi terhadap laporan lain yang sudah ada.* | *Ya* |
+| *R08* | *A04* | *System* | *Sistem mengubah status laporan menjadi "Diterima" segera setelah data tersimpan.* | *Ya* |
+| *R09* | *A04* | *User* | *Warga menerima notifikasi bahwa laporannya telah diterima sistem.* | *Ya* |
+| *R10* | *A05* | *User* | *Tim Administrasi dapat meninjau detail laporan (foto, lokasi, deskripsi) untuk menilai validitas.* | *Ya* |
+| *R11* | *A05* | *Business* | *Laporan dinyatakan valid apabila lolos pengecekan manual Tim Administrasi (foto sesuai dengan deskripsi laporan dan bukan spam/duplikat).* | *Tidak* |
+| *R12* | *A05* | *User* | *Tim Administrasi dapat mengurutkan daftar laporan berdasarkan waktu masuk.* | *Ya* |
+| *R13* | *A06* | *User* | *Tim Administrasi dapat menandai laporan sebagai "Ditolak" disertai alasan.* | *Ya* |
+| *R14* | *A06* | *System* | *Sistem mengirim notifikasi kepada warga pelapor saat status berubah menjadi "Ditolak".* | *Ya* |
+| *R15* | *A07* | *System* | *Sistem mengubah status laporan valid menjadi "Dikerjakan" setelah verifikasi selesai.* | *Ya* |
+| *R16* | *A08* | *System* | *Sistem menghitung skor prioritas otomatis berdasarkan jumlah upvote dan kelas jalan/fasilitas terdampak.* | *Ya* |
+| *R17* | *A08* | *User* | *Tim Administrasi dapat menyesuaikan skor prioritas otomatis secara manual.* | *Ya* |
+| *R18* | *A08* | *Business* | *Formula perhitungan skor prioritas bersifat transparan dan dapat diakses publik.* | *Ya* |
+| *R19* | *A10* | *Business* | *Eksekutor Lapangan wajib menyelesaikan penanganan sesuai SLA berdasarkan skala prioritas laporan.* | *Tidak* |
+| *R20* | *A11* | *User* | *Eksekutor Lapangan dapat mengunggah foto bukti penyelesaian melalui perangkat mobile.* | *Ya* |
+| *R21* | *A11* | *User* | *Eksekutor Lapangan dapat menuliskan catatan hasil eksekusi.* | *Ya* |
+| *R22* | *A11* | *System* | *Sistem menyimpan foto sebelum dan sesudah penanganan untuk keperluan verifikasi.* | *Ya* |
+| *R23* | *A12* | *User* | *Tim Administrasi dapat meninjau foto dan catatan hasil eksekusi untuk menilai penyelesaian.* | *Ya* |
+| *R24* | *A12* | *Business* | *Status "Berhasil" hanya dapat ditetapkan oleh Tim Administrasi, tidak dapat ditutup otomatis oleh Eksekutor Lapangan.* | *Tidak* |
+| *R25* | *A13* | *User* | *Tim Administrasi dapat mengembalikan laporan ke Eksekutor Lapangan disertai catatan alasan.* | *Ya* |
+| *R26* | *A13* | *System* | *Sistem mencatat riwayat setiap siklus eksekusi ulang untuk keperluan audit.* | *Ya* |
+| *R27* | *A14* | *System* | *Sistem mengubah status laporan menjadi "Berhasil" setelah dikonfirmasi Tim Administrasi.* | *Ya* |
+| *R28* | *A14* | *User* | *Warga pelapor menerima notifikasi bahwa laporannya telah selesai ditangani.* | *Ya* |
+| *R29* | *A15* | *User* | *Warga dapat melihat status dan riwayat penanganan laporan yang telah dibuat.* | *Ya* |
+| *R30* | *A15* | *User* | *Warga (termasuk bukan pelapor) dapat melihat peta sebaran seluruh laporan beserta statusnya.* | *Ya* |
+| *R31* | *A15* | *System (Security)* | *Sistem menampilkan identitas pelapor secara anonim pada tampilan publik.* | *Ya* |
 
 ## 2.4 Kebutuhan Fungsional (KF)
 
