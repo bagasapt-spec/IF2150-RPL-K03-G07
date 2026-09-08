@@ -26,10 +26,13 @@
 
 | Catatan |
 | --- |
-| 1. *\[Berikan catatan hasil asistensi\]*  |
-| 2. ... |
-| 3. ... |
-| 4. ... |
+| 1. *Di bagian subbab 1.1 harus ada 4 hal yang diminta sesuai spek: Ekspektasi Pengguna, Alur Kerja, Peran Manusia & Sistem, Harapan dari Penerapan Solusi*  |
+| 2. Di subbab 2.3 caranya itu kalian ambil satu-satu activity dari tabel Deskripsi Aktivitas, terus di setiap aktivitas tentuin aja dari 3 jenis kebutuhan mana yang nyambung User/System/Business (ga harus semuanya ada di tiap activity) |
+| 3. Setiap activity harus diinclude dalam Pemetaan Kebutuhan |
+| 4. Setiap Kebutuhan yang diflag "Ya" di atribut P/L, berarti wajib masuk di KF/KNF |
+| 5. Kalau ada kebutuhan tambahan pas ngerjain 2.3, berarti flow yang seharusnya itu mulai dari User Story, dapet Activity nya, baru mapping ke Kebutuhannya. |
+| 6. Buat semau KF/KNF harusnya menggunakan pola EARS. |
+| 7. T2 ini bakal jadi penentu buat tugas-tugas ke depannya. Jadi kalau mau ada mengurangi/menambah/menyesuaikan Activity/KF/KNF itu boleh-boleh aja mumpung masih di T2 sekarang. |
 
 **Notes for this section:**  
 *Catatan dapat dituliskan dalam bentuk paragraf atau poin-poin, disesuaikan saja.* 
@@ -38,7 +41,7 @@
 
 <!-- ![](./assets/foto-asistensi.jpg) -->
 <p align="center">
-  <img src="./assets/foto-asistensi.jpg" width="100%">
+  <img src="./assets/foto-asistensi.png" width="100%">
 </p>
 
 <p align="center">
