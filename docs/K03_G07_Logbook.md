@@ -56,11 +56,13 @@
 | Tanggal | Nama Anggota | Deskripsi Pekerjaan | Durasi (Jam) | Status | Kendala / *Blocker* | 
 | :--- | :--- | :--- | :--- | :--- | :--- | 
 | *06-09-2026* | *Rafi Pradipta Andira Sulistyo* | *Mengerjakan draft awal bab 2.3* | *1-2* | *Done* | - | 
+| *06-09-2026* | *Bagas Anugrah Putra* | *Mengerjakan draft awal Subbab 2.4 (Kebutuhan Fungsional) berbasis EARS mengacu pada alur proses bisnis M1* | *2* | *Done* | - | 
 | *07-09-2026* | *Pasaribu Fritz T.A.M.* | *Mengerjakan draft awal bab 1* | *1-2* | *Done* | - | 
 | *08-09-2026* | *Rafi Pradipta Andira Sulistyo* | *Menambahkan beberapa poin pada bab2.3* | *0.5* | *Done* | - | 
 | *08-09-2026* | *Rafi Pradipta Andira Sulistyo* | *Penyesuaian bab 2.3 berdasarkan hasil asistensi.* | *1* | *Done* | * - * |
 | *08-09-2026* | *Pasaribu Fritz T.A.M.* | *Mengisi Form Asistensi T2* | *0.5* | *Done* | - | 
 | *09-09-2026* | *Pasaribu Fritz T.A.M.* | *Penyesuaian bab 1.1 berdasarkan hasil asistensi* | *0.5* | *Done* | - | 
+| *09-09-2026* | *Bagas Anugrah Putra* | *Revisi dan penyelarasan Subbab 2.4 (KF) terhadap pemetaan kebutuhan Bab 2.3 serta arahan asistensi* | *1* | *Done* | - |
 | | | | | | | |
 
 ---
