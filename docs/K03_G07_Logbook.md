@@ -31,6 +31,7 @@
 * [Milestone 7](#milestone-7)
 * [Milestone 8](#milestone-8)
 * [Milestone 9](#milestone-9)
+* [Milestone 10](#milestone-10)
 * Notes: Copy bagian Daftar Isi seperti Milestone 1 untuk Milestone berikutnya, contoh ``* [Milestone 2](#milestone-2)``. Ketika Daftar isi diklik maka akan langsung diarahkan ke bagian bawah sesuai dengan Milestone tujuan.
 
 
@@ -220,7 +221,23 @@
 | 18-11-2026 | Pasaribu Fritz T.A.M. | Mengisi template tabel di HIUPL untuk tes berkaitan UC03 & UC04 | 1 | Done |  |
 | 19-11-2026 | Pasaribu Fritz T.A.M. | Unit & INT test berkaitan UC03 & UC04 | 1 | Done |  |
 | 20-11-2026 | Pasaribu Fritz T.A.M. | Use Case & KNF Test berkaitan UC03 & UC04 | 1 | Done |  |
+| 18-11-2026 | Rafi Pradipta Andira Sulistyo | Menganalisis spesifikasi HIUPL dan menyusun pembagian tugas pengujian. | 1,5 | Done | - |
+| 18-11-2026 | Rafi Pradipta Andira Sulistyo | Menyiapkan coverage Vitest, konfigurasi integrasi terpisah dari CI, helper pembersihan data dan koordinat uji, serta menjalankan uji integrasi pertama. | 2 | Done | - |
+| 18-11-2026 | Rafi Pradipta Andira Sulistyo | Menyusun Subbab 3.1 dan 3.4, Tabel 4.1.1, pengantar Subbab 4.2 dan 4.3, serta Tabel 4.3.1 di HIUPL. | 2 | Done | - |
+| 20-11-2026 | Rafi Pradipta Andira Sulistyo | Menguji KNF02, KNF05, KNF06, dan KNF13 di production, menyiapkan bukti, serta mengisi Tabel 4.5, 4.6, dan 5.2 (`5d26c1f`). | 2,5 | Done | KNF13-TC01 mencatat Fail untuk kanal email. |
+| 20-11-2026 | Pasaribu Fritz T.A.M. | Menyelaraskan ID uji C08, C19, dan C20 dengan HIUPL serta merevisi laporan UC03/UC04 (`5ca73c6`, `e7916c8`, `d5fc43a`). | Belum tercatat | Done | Deskripsi C20-UT24 di HIUPL masih perlu diselaraskan dengan kode. |
+| 20-11-2026 | Bagas Anugrah Putra | Menambah unit test C09 (Evaluasi) dan C21 (EvaluasiController) untuk kasus normal, batas, dan negatif. Kedua kelas mencapai 100% coverage baris dan cabang (`b910d33`). | Belum tercatat | Done | - |
+| 20-11-2026 | Bagas Anugrah Putra | Menyusun bagian Peran B di HIUPL, meliputi pemetaan kelas dan antarmuka I-03/I-04, klasifikasi kedalaman uji, tabel unit test C09/C18/C21, serta skenario normal dan alternatif UC02/UC05 (`6294796`). | Belum tercatat | Done | Beberapa operasi C18 belum memiliki kasus batas tersendiri. |
+| 20-11-2026 | Bagas Anugrah Putra | Mendokumentasikan enam skenario manual UC02 dan UC05 yang lulus, 55 unit test yang lulus untuk C09 (17), C18 (12), dan C21 (26), serta 12 tangkapan layar bukti pada Tabel 4.6. Coverage baris mencapai 100% untuk ketiganya, dengan cabang 100% untuk C09/C21 dan 78,94% untuk C18 (`2b0b52e`). | Belum tercatat | Done | Waktu pelaksanaan uji manual belum tercatat. |
+| 20-11-2026 | Bagas Anugrah Putra | Menyusun draf Bab 5, menggabungkan duplikat KF13 dan KF17, memetakan 20 KF dan 13 KNF, serta menandai bukti dan ID uji yang perlu dikonfirmasi (`3720e8b`). | Belum tercatat | Done | Draf disusun sebelum hasil UC01 dan UC06 masuk ke dev. |
+| 20-11-2026 | Bagas Anugrah Putra | Mendokumentasikan penggunaan AI dan aktivitas M10 pada logbook (`c6179a4`). Menggabungkan PR #127 (Fondasi), #131 (UC01), dan #130 (UC06) ke dev (`22b06e9`, `295e55d`, `f08cf59`). | Belum tercatat | Done | - |
+| 20-11-2026 | Muhammad Atallah Ramadhan | Menambah unit test C02, C03, C04, C05, dan C17 serta suite integrasi UC01. Mencatat hasil skenario manual dan melampirkan bukti UC01 di HIUPL (`fefa636`, `1dd5128`). | Belum tercatat | Done | Hasil dan bukti eksekusi integrasi UC01 masih perlu dilengkapi di HIUPL. |
+| 20-11-2026 | Gede Pranajayanta Suputra | Melengkapi unit test C02/C06/C22, mencatat hasil integrasi dan uji manual UC06, serta menambahkan bukti pengujian dan menyelaraskan bagian D dengan dev (`b69d136`, `41b14ca`, `492f852`). | Belum tercatat | Done | UC06-TC04, UC06-TC05, dan KNF11-TC01 mencatat temuan Fail. |
 
+**Catatan/Evaluasi Milestone 10:**
+* Periode dan entri Fritz yang sudah ada mengikuti logbook pada branch saat ini. Tanggal dan durasi pekerjaan Rafi disalin dari logbook M10 pada commit `c6179a4`.
+* Tanggal entri tambahan lainnya mengikuti tanggal commit dalam WIB. Durasi dan waktu pengujian yang belum terdokumentasi perlu dikonfirmasi kepada masing-masing anggota. Status Done pada tabel merujuk pada pekerjaan yang dicatat, termasuk dokumentasi temuan pengujian.
+| 20-11-2026 | Gede Pranajayanta Suputra | Menambahkan dan menjalankan unit test serta integrasi UC06, melakukan pengujian manual dan KNF11–KNF12, merapikan bukti pengujian, menggabungkan laporan bagian D ke HIUPL, serta menyelesaikan konflik dengan dev | Done |  |
 
 
 
