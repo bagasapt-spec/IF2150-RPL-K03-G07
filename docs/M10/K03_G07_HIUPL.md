@@ -1234,11 +1234,3 @@ Tabel 5.2. Matriks Kerunutan KNF terhadap Pengujian
 | KNF11 | Memory | KF10 / UC02 | KNF11-TC01 (Fail). Antrean belum menampilkan thumbnail. Gambar asli dimuat ketika detail dibuka. |
 | KNF12 | Security | KF20 / UC06 | KNF12-TC01 (Pass pada respons publik yang diperiksa), INT-TC64, C22-UT05. |
 | KNF13 | Response time | KF07 / UC01, UC02, UC05, UC06 | KNF13-TC01 (Fail terhadap target email ≤ 2 menit). Tim mengganti kanal eksternal dengan lonceng notifikasi di web sesuai batasan SKPL 2.4 butir 8 dan M9 B.1 butir 49. Hasil ini tidak mengukur latensi notifikasi internal. |
-
-**Catatan untuk konfirmasi tim**
-
-- INT-TC01–INT-TC09 tersedia di `tests/integration/uc01.int.test.ts` dan dirujuk pada Tabel 4.3.1. Hasil dan bukti eksekusinya belum terisi di Tabel 4.3.2 dan Subbab 4.6. Bukti beberapa uji unit UC01 serta hasil KNF01-TC01, KNF03-TC01, dan KNF04-TC01 juga masih perlu dilengkapi.
-- KNF07 dan KNF08 mempunyai bukti parsial dari uji unit dan use case. Konfirmasi uji akses endpoint antrean dan pengukuran tiga klik. Untuk KNF09, konfirmasi apakah pengukuran dimulai sejak laporan baru divalidasi.
-- KF19 dan KF20 masih memiliki temuan pada UC06-TC04 dan UC06-TC05. Konfirmasi data, hasil evaluasi, dan akses warga untuk bukti perbaikan pada sampel. Selaraskan kelengkapan kartu peta serta pembaruan berkala dengan SKPL. KNF11-TC01 tetap Fail untuk thumbnail.
-- C02-UT43–C02-UT45 dicatat sebagai kasus trigger di Bab 4.2.2. C20-UT24 menguji pesan validasi di `src/lib/validasi-perbaikan.test.ts`, sedangkan barisnya di Bab 4.2.20 masih berisi isian templat. Selaraskan deskripsi dan bukti pada Bab 4.
-- Konfirmasi apakah perubahan kanal notifikasi perlu diformalkan pada KNF13 di SKPL. Selama target masih menyebut email, hasil KNF13-TC01 tetap Fail.
